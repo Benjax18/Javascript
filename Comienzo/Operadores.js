@@ -22,7 +22,8 @@ resultado= num1+num2;
  num1--; // a num1 se le resta 1
  num1++; // a num1 se le suma 1
 
-//shahdhad
+// camel case= cada frase mezclada tiene que ir en orden de minuscula primero y luego mayuscula 
+// ej: holaMeGustaFortnite
 
 
 

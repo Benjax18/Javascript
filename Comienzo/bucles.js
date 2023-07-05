@@ -77,16 +77,17 @@ array1= ["jose","pepe","mario"]
 array2=["lucho","matias","francisca", array1]
 
 forRancio:
-for(let array in array2){ //3 es la posicion de la array
-    if (array== 3){
-        for (let array of array1){
-            document.write(array + "<br>")
-            break forRancio // acaba con tooooodo el bucle
+
+    for(let array in array2){ //3 es la posicion de la array
+        if (array== 3){
+            for (let array of array1){
+                document.write(array + "<br>")
+                break forRancio // acaba con tooooodo el bucle
+            }
+
+        }
+        else  {
+        document.write(array2[array] + "<br>")
         }
 
     }
-    else  {
-        document.write(array2[array] + "<br>")
-    }
-
-}

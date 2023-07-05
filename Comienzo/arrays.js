@@ -16,6 +16,7 @@ let nombre = pc1["nombre"];
 let procesador = pc1["procesador"];
 let ram = pc1["ram"];
 let espacio = pc1["espacio"];
+
 fs= ` El nombre de mi pc es :  ${nombre}  <br>
   El nombre de mi procesador es :  ${procesador}  <br>
   El nombre de mi ram es :  ${ram}  <br>
