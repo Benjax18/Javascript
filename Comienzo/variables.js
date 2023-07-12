@@ -1,4 +1,4 @@
-// siempre terminar con punto y coma (;)
+// siempre terminar con punto y coma (;)            IMPORTANTE!!!
 //tipos de datoss
 string = "cadena de texto nashei";
 number= 19;
@@ -39,3 +39,4 @@ let n1=1;
 let n2="pepe";
 alert(n1*n2)
 
+console.log("hola mundo"); // este codigo no se mostrara en pantalla si no que en la consola de la pagina 

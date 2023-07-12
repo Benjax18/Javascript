@@ -6,3 +6,26 @@
 
 
 
+
+
+function pasaono(edad){
+    if (edad>18){
+        alert("puedes pasar crack");
+    }
+    else if (edad<0){
+        alert("na compare vives en otro planeta");
+        alert("fueraa");
+    }
+    else if (edad==18){
+        alert("uff dentro justito eh");
+    }
+    else{
+        alert("menor de edad pana valiste");
+    }
+
+}
+let edad = prompt("ingrese su edad... ")
+
+pasaono(edad)
+
+

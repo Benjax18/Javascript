@@ -45,4 +45,5 @@ document.write(`el resultado de ${nume1} y ${nume2} es: ${resultado} `)
 
 
 const salud= name => document.write (`Hola como aprendiste a usar las funciones de flecha eh? ${name}? `);
+
 salud("benja")
