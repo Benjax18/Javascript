@@ -1,11 +1,11 @@
 
 const contraseña=(caracte,longitud)=>{
     let contraseña="";
-    for (let x=0; x<longitud;x++){
-        let random= Math.floor(Math.random()* caracte.length);
-        contraseña+=caracte.charAt(random);
+    for (let x=0; x<longitud;x++){ // la variable x comienza en 0 para que al pasarle la longitud este bucle de tantas vueltas como lo diga la longitud.
+        let random= Math.floor(Math.random()* caracte.length); // de aqui sale un numero aleatorio de la cadena de caracteres de la variable (caracte)
+        contraseña+=caracte.charAt(random); // De aqui se muestra el elemento de la cadena por su indice y se guarda en la variable contraseña. y asi dara vueltas el bucle hasta llegar a la longitud dada.
     }
-    return contraseña;
+    return contraseña; // luego de que el bucle haya parado retornamos la variable contraseña con todos los elementos guardados
 
 }
 
@@ -28,7 +28,7 @@ const generador=()=>{   // creando la funcion de generador
 };
 
 window.addEventListener('DOMContentLoaded',()=>{
-    botong.addEventListener("click",()=>{
-        generador();
+    botong.addEventListener("click",()=>{ // al hacer click en el boton de "generar contraseña" llamara a la funcion generador.
+        generador(); 
     })
 });
